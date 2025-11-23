@@ -206,13 +206,6 @@ PINECONE_ENV=your_pinecone_environment
 - **Prompt Engineering:** Precision in prompts = better outputs
 - **Optimization:** GPU isn't always necessary; optimize for your hardware
 - **RAG Benefits:** Reduces hallucinations, enables real-time knowledge
-
-### 🎓 Learning Resources
-- [Hugging Face Course](https://huggingface.co/learn)
-- [LangChain Documentation](https://python.langchain.com/)
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
-- [Pinecone Learning Center](https://www.pinecone.io/learn/)
-
 ---
 
 ## 🔧 Technical Stack
