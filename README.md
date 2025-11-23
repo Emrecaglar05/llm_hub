@@ -14,7 +14,7 @@
 
 ## 📚 Learning Path Overview
 
-This repository contains my hands-on projects and implementations as I progress through advanced LLM and AI concepts. Each module represents a milestone in my data science journey.
+This repository contains my hands-on projects and implementations as I progress through advanced LLM and AI concepts. Each module represents a milestone in my data science and artificial intelligence journey.
 
 ### 🎯 Learning Objectives
 - Master LLM fundamentals and architectures
