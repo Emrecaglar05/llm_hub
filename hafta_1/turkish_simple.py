@@ -43,8 +43,8 @@ for i, question in enumerate(questions, 1): # Soruları sırayla işlemeye yarar
         
         # Sadece assistant cevabını al
         if "<|im_start|>assistant\n" in full_text:
-            answer = full_text.split("<|im_start|>assistant\n")[-1]
-            answer = answer.split("<|im_end|>")[0].strip()
+            answer = full_text.split("<|im_start|>assistant\n")[-1] # assistant cevabını al
+            answer = answer.split("<|im_end|>")[0].strip() # assistant cevabını temizle
             print(f"🤖 Cevap: {answer}")
         else:
             print(f"🤖 Cevap: {full_text}")

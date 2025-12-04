@@ -24,13 +24,13 @@ Duygusal ton:"""
     response = client.chat.completions.create(
         model="gpt-4o",
         messages=[
-            {"role": "user", "content": prompt}
+            {"role": "user", "content": prompt} # Kullanıcıdan gelen prompt 
         ],
         max_tokens=50,
         temperature=0
     )
     
-    return response.choices[0].message.content
+    return response.choices[0].message.content # Cevabı döndür
 
 def zero_shot_translation():
     """Sıfır örnekle çeviri"""

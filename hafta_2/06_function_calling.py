@@ -16,7 +16,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 class FunctionCallingChatbot:
     def __init__(self):
-        self.conversation_history = [
+        self.conversation_history = [ # Sistem mesajı ile chatbotun davranışını belirleme
             {
                 "role": "system",
                 "content": """Sen çok yetenekli bir AI asistanısın. Kullanıcılara yardım etmek için 

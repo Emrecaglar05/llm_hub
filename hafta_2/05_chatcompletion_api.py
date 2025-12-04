@@ -194,7 +194,7 @@ def model_comparison():
         try:
             response = client.chat.completions.create(
                 model=model,
-                messages=[{"role": "user", "content": prompt}],
+                messages=[{"role": "user", "content": prompt}], # kullanıcı mesajı
                 max_tokens=200
             )
             results[model] = response.choices[0].message.content

@@ -3,7 +3,7 @@ import torch
 import accelerate
 MODEL_ID ="Qwen/Qwen2.5-1.5B-Instruct"
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True) # Modelin tokenizerini yüklüyorum
 genarator = pipeline(
     "text-generation", 
     model=MODEL_ID, 
