@@ -283,7 +283,7 @@ This project is licensed under the MIT License - feel free to use and adapt for 
 
 **🚀 "Learning by doing - one model at a time"**
 
-*Last Updated: November 2024*
+*Last Updated: May 2026*
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=Emrecaglar05&color=00D9FF&style=flat-square)
 
